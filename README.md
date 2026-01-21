@@ -171,7 +171,7 @@ Version 0.11.0-1 is known not to work with ST-LINK V3-MINIE.
 
 ### Version and Scripts
 
-- OpenOCD: `0.12.0+dev` (built from source)
+- OpenOCD: `0.12.0+dev` (https://github.com/openocd-org/openocd.git)
 - Scripts installed under: `/usr/local/share/openocd/scripts`
 
 ### Interface and Target Scripts
