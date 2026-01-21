@@ -141,9 +141,8 @@ All peripheral configuration is performed by direct register access (RCC, GPIO, 
 
 ### Memory Map
 The linker script `stm32f401.ld` is borrowed from Nucleo:
-```text
 https://github.com/STMicroelectronics/STM32CubeF4/blob/master/Projects/STM32F401RE-Nucleo/Templates/STM32CubeIDE/STM32F401CEUX_FLASH.ld
-```
+
 But adjusted to suit STM32F401CCU6 RAM size:
 
 ```ld
