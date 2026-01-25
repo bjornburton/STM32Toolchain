@@ -1,6 +1,9 @@
 # STM32F401CCU6 Bare-Metal Linux Toolchain Notes
 
-These notes document the toolchain, build inputs, and debug workflow assembled for  
+This tiny blinker project was created since I was having trouble finding a ready-to-run bare-metal example for the STM32F401xC.
+It uses an interrupt since, with rare exceptions, all projects use them.
+
+These notes document my toolchain, build inputs, programming and debug workflow assembled for  
 **bare-metal STM32F401CCU6** development (no HAL, no LL, no RTOS).
 
 ---
